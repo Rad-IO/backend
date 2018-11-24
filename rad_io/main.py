@@ -1,9 +1,6 @@
 import os
 from flask import Flask, request, redirect, url_for, render_template
-from threading import Thread
-from multiprocessing.pool import ThreadPool
 import subprocess
-from check_one import predict
 from werkzeug.utils import secure_filename
 
 uploaded = False
